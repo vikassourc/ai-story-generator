@@ -16,7 +16,7 @@ function App() {
 
   // IMPORTANT: Update this URL to your deployed Render backend URL after deployment!
   // For local testing, keep it as 'http://localhost:3001'
-  const BACKEND_URL = 'http://localhost:3001'; // <--- UPDATE THIS FOR DEPLOYMENT
+  const BACKEND_URL = 'https://ai-story-generator-156s.onrender.com'; // <--- UPDATE THIS FOR DEPLOYMENT
 
   // Load saved stories from local storage on component mount
   useEffect(() => {
